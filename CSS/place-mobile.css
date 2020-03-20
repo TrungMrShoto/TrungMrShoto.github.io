@@ -1,0 +1,114 @@
+*{
+          box-sizing: border-box;
+}
+
+[class*="col-"]{
+          width: 100%;
+}
+
+body{
+	text-align: justify;
+	font-family: Arial;
+}
+
+#banner{
+	display: block;
+    position: relative;
+    margin: 0 auto;
+	padding:0;
+    height: auto;
+}
+
+.img-banner{
+	position: relative;
+	margin: 0 auto;
+	padding:0;
+	height: auto;
+}
+/*
+ *							CONTAINER
+ */
+.introduce{
+	position: relative;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 85%;
+	margin:0 auto;
+	padding:0;
+	height: auto;
+}
+
+
+.content-title{
+	font-size: 200%;
+	font-family: "Baloo Chettan 2";
+}
+
+.container{
+	display: block;
+	position: relative;
+	margin: 10px auto;
+	padding: 0;
+	height: auto;
+}
+.where-content{
+	padding-bottom: 20px;
+	margin:0;
+}
+
+.content-image{
+	display: block;
+	position: relative;
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin:0 auto;
+	height: auto;
+}
+
+.content-div-detail {
+	padding:0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: auto;
+}
+.content-detail{
+	margin:0 auto;
+	height: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.clearfix{
+	margin:20px auto;
+}
+.clearfix:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.paragraph{
+	word-spacing: 150%;
+}
+.content-video{
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: auto;
+}
+
+/*
+ *                                  FOOTER
+ */
+footer {
+	font-family: Oswald;
+	text-align: center;
+	font-size: 100%;
+	background-color: #1b64ae;
+	color: white;
+	position: relative;
+	margin: 5px auto;
+	padding: 5px;
+	height: auto;
+}

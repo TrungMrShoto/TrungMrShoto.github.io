@@ -1,0 +1,125 @@
+*{
+          box-sizing: border-box;
+}
+
+[class*="col-"]{
+	width: 100%;
+}
+
+/*              BANNER						*/
+
+#banner{
+	display: block;
+    position: relative;
+    margin: 10px auto 5px auto;
+	padding:0;
+    height: auto;
+}
+
+.img-banner{
+	position: relative;
+	margin: 0 auto;
+	padding:0;
+	height: auto;
+}
+
+
+/*
+ *                       CONTENT        
+ */
+
+#content-container{
+    position: relative;
+    margin: 10px auto;
+	padding-left:10px;
+	padding-right: 10px;
+	height: auto;
+    overflow: hidden;
+}
+.content-hanh-chinh{
+	display:block;
+	margin: 0 auto;
+	height: auto;
+}
+
+.content-detail{
+	position: relative;
+    font-family: Arial;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 90%;
+}
+
+.content-introduce-1{
+	position: relative;
+	float:left;
+	background-color: #e8ffff;
+	padding: 10px;
+	margin:0 auto;
+}
+.content-introduce-title{
+	position: relative;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.content-introduce-container{
+	position: relative;
+	float: left;
+}
+.content-introduce-title-link{
+	font-family: "Baloo Chettan 2";
+	position:relative;
+    text-decoration: none;
+	color: black;
+	font-weight: bold;
+	margin-left: 42%;
+	padding:0;
+}
+
+.content-introduce-title-link:hover{
+	color: red;
+}
+
+.content-introduce-image{
+	position: relative;
+	display: block;
+	margin: 10px auto; 
+	height: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.content-introduce-detail {
+	position: relative;
+	text-align: justify;
+	font-size: 70%;
+	font-family: Arial;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.content-introduce-2{
+	position: relative;
+	float:left;
+	background-color: #f3f3f3;
+	padding: 10px;
+	margin:0 auto;
+}
+/*
+ *                                  FOOTER
+ */
+footer {
+	font-family: Oswald;
+	text-align: center;
+	font-size: 100%;
+	background-color: #1b64ae;
+	color: white;
+	position: relative;
+	margin: 5px auto;
+	padding: 5px;
+	height: auto;
+}
+
+
